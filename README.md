@@ -22,4 +22,41 @@ SSD: SK hynix Gold S31 1TB 3D NAND 2.5 inch SATA III Internal SSD
 
 ## EFI File Tree
 
-TODO
+```
+EFI/
+├── BOOT
+│   └── BOOTx64.efi
+└── OC
+    ├── ACPI
+    │   ├── SSDT-AWAC.aml
+    │   ├── SSDT-EC-USBX.aml
+    │   ├── SSDT-PLUG.aml
+    │   └── SSDT-PMC.aml
+    ├── Bootstrap
+    │   └── Bootstrap.efi
+    ├── config.plist
+    ├── Drivers
+    │   ├── HfsPlus.efi
+    │   └── OpenRuntime.efi
+    ├── Kexts
+    │   ├── AirportBrcmFixup.kext
+    │   ├── AppleALC.kext
+    │   ├── BrcmBluetoothInjector.kext
+    │   ├── BrcmFirmwareData.kext
+    │   ├── BrcmPatchRAM2.kext
+    │   ├── IntelMausi.kext
+    │   ├── Lilu.kext
+    │   ├── SMCProcessor.kext
+    │   ├── SMCSuperIO.kext
+    │   ├── USBInjectAll.kext
+    │   ├── VirtualSMC.kext
+    │   ├── WhateverGreen.kext
+    │   └── XHCI-unsupported.kext
+    ├── OpenCore.efi
+    └── Tools
+        ├── libaistat.dylib
+        ├── OpenShell.efi
+        ├── rtcread
+        ├── smc
+        └── smcread
+```
