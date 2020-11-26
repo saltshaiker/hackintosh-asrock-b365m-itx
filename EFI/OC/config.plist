@@ -210,7 +210,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AwCRPg==</data>
+				<data>BwCbPg==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -910,7 +910,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 nvda_drv_vrl=1</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=1 -wegnoegpu</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -981,7 +981,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02753101QXJ0PGCB</string>
+			<string>C02003600J9LNV98C</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -989,11 +989,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac18,3</string>
+			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W1FYJJ1GJ</string>
+			<string>C02C4087JV3Q</string>
 			<key>SystemUUID</key>
-			<string>2AF27547-CB06-4E7A-B643-D1119F5C34EF</string>
+			<string>8F231561-778A-486F-8646-31A58D4F3BF</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
