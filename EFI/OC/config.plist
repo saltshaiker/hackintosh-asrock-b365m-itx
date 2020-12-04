@@ -219,11 +219,6 @@
 				<key>built-in</key>
 				<data>AQ==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>acpi-wake-type</key>
-				<data>AQ==</data>
-			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -429,6 +424,24 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
