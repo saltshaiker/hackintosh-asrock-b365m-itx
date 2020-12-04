@@ -64,9 +64,13 @@ EFI/
 
 ## What's Working
 * Intel WLAN support
-* 
+* Bluetooth (except for devices with low-range Bluetooth receivers due to machine layout)
+* Audio
+* File sharing
+* USB Mapping
 ## What's Not Working
 * OpenCore UEFI GUI with corresponding Big Sur assets
+* Sleep
 
 ## Potentially Useful Tools
 | Tool                                     | Use Case                                                                                                          |
