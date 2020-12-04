@@ -18,7 +18,7 @@ Repo for my Hackintosh build using MacOS 11.0.0 (Big Sur). Will also attempt to 
 ## EFI File Tree
 
 ```
-EFI
+EFI/
 ├── BOOT
 │   └── BOOTx64.efi
 └── OC
@@ -29,7 +29,6 @@ EFI
     │   └── SSDT-PMC.aml
     ├── Bootstrap
     │   └── Bootstrap.efi
-    ├── config.plist
     ├── Drivers
     │   ├── HfsPlus.efi
     │   ├── OpenCanopy.efi
@@ -37,13 +36,14 @@ EFI
     ├── Kexts
     │   ├── AirportItlwm.kext
     │   ├── AppleALC.kext
+    │   ├── CPUFriendDataProvider.kext
     │   ├── IntelBluetoothFirmware.kext
     │   ├── IntelBluetoothInjector.kext
     │   ├── IntelMausi.kext
     │   ├── Lilu.kext
     │   ├── SMCProcessor.kext
     │   ├── SMCSuperIO.kext
-    │   ├── USBInjectAll.kext
+    │   ├── USBMap.kext
     │   ├── VirtualSMC.kext
     │   ├── WhateverGreen.kext
     │   └── XHCI-unsupported.kext
@@ -53,12 +53,13 @@ EFI
     │   ├── Font
     │   ├── Image
     │   └── Label
-    └── Tools
-        ├── libaistat.dylib
-        ├── OpenShell.efi
-        ├── rtcread
-        ├── smc
-        └── smcread
+    ├── Tools
+    │   ├── OpenShell.efi
+    │   ├── libaistat.dylib
+    │   ├── rtcread
+    │   ├── smc
+    │   └── smcread
+    └── config.plist
 ```
 
 ## What's Working
