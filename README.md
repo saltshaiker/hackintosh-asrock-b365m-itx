@@ -63,12 +63,14 @@ EFI
 
 ## What's Working
 * Intel WLAN support
-* Bluetooth (except for devices with low-range Bluetooth receivers due to machine layout)
+* Bluetooth
 * Audio
 * File sharing
 * USB Mapping
+* AirDrop
+* iMessage (in progress)
+* OpenCore UEFI GUI
 ## What's Not Working
-* OpenCore UEFI GUI with corresponding Big Sur assets
 * Sleep
 
 ## Potentially Useful Tools
