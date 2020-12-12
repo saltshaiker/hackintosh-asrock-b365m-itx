@@ -12,9 +12,9 @@ Repo for my Hackintosh build using MacOS 11.0 (Big Sur). Will also attempt to ma
 | RAM         | [CORSAIR Vengeance LPX 32GB (2 x 16GB) 288-Pin DDR4 2666](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK32GX4M2A2666C16)        |                                                   |
 | CPU Cooler  | [Alpenföhn® Black Ridge](https://www.alpenfoehn.de/produkte/cpu-kuehler/black-ridge)                                                                          |                                                   |
 | PSU         | [Corsair SF600 Gold SFX](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/SF-Series%E2%84%A2-80-PLUS-Gold-Power-Supplies/p/CP-9020105-NA) |                                                   |
-| Case        | [JONSBO T8 Handle Mini-ITX Computer Case - Silver](https://www.jonsbo.com/en/products/t8silver.html)                                                          | Needs to be partially disassembled to install GPU |
+| Case        | [JONSBO T8 Handle Mini-ITX Computer Case - Silver](https://www.jonsbo.com/en/products/t8silver.html)                                                          
 | SSD         | [SK hynix Gold S31 1TB 3D NAND 2.5 inch SATA III Internal SSD](https://ssd.skhynix.com/GoldS31.html)
-| NIC         | [Fenvi BCM94360NG NGFF (A+E)](https://smile.amazon.com/gp/product/B083YXS7VF/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)      
+| NIC         | [Fenvi BCM94360NG NGFF (A+E)](https://smile.amazon.com/gp/product/B083YXS7VF/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) | Natively supports Wi-Fi and Bluetooth without kexts      
 
 ## EFI File Tree
 
