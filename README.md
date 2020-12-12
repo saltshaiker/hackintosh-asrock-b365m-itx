@@ -7,18 +7,20 @@ Repo for my Hackintosh build using MacOS 11.0.0 (Big Sur). Will also attempt to 
 | Component   | Model                                                                                                                                                         | Notes                                             |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | CPU         | [Intel i7-9700 3GHz](https://ark.intel.com/content/www/us/en/ark/products/191792/intel-core-i7-9700-processor-12m-cache-up-to-4-70-ghz.html)                  |                                                   |
-| GPU         | [ZOTAC GeForce® GTX 1070 Ti Mini](https://www.zotac.com/us/product/graphics_card/zotac-geforce-gtx-1070-ti-mini)                                              | Only compatible up to MacOS 10.13 (High Sierra)   |
+| GPU         | [Radeon RX 5500 XT Challenger ITX 8G](https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%205500%20XT%20Challenger%20ITX%208G/)                                              | Only compatible up to MacOS 10.13 (High Sierra)   |
 | Motherboard | [Asrock B365M-ITX/ac](https://www.asrock.com/MB/Intel/B365M-ITXac/index.asp)                                                                                  |                                                   |
 | RAM         | [CORSAIR Vengeance LPX 32GB (2 x 16GB) 288-Pin DDR4 2666](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK32GX4M2A2666C16)        |                                                   |
 | CPU Cooler  | [Alpenföhn® Black Ridge](https://www.alpenfoehn.de/produkte/cpu-kuehler/black-ridge)                                                                          |                                                   |
 | PSU         | [Corsair SF600 Gold SFX](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/SF-Series%E2%84%A2-80-PLUS-Gold-Power-Supplies/p/CP-9020105-NA) |                                                   |
 | Case        | [JONSBO T8 Handle Mini-ITX Computer Case - Silver](https://www.jonsbo.com/en/products/t8silver.html)                                                          | Needs to be partially disassembled to install GPU |
-| SSD         | [SK hynix Gold S31 1TB 3D NAND 2.5 inch SATA III Internal SSD](https://ssd.skhynix.com/GoldS31.html)                                                          |                                                   |
+| SSD         | [SK hynix Gold S31 1TB 3D NAND 2.5 inch SATA III Internal SSD](https://ssd.skhynix.com/GoldS31.html)
+| NIC         | [Fenvi BCM94360NG NGFF (A+E)](https://smile.amazon.com/gp/product/B083YXS7VF/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)      
+|                                                   |
 
 ## EFI File Tree
 
 ```
-EFI/
+EFI
 ├── BOOT
 │   └── BOOTx64.efi
 └── OC
@@ -34,15 +36,13 @@ EFI/
     │   ├── OpenCanopy.efi
     │   └── OpenRuntime.efi
     ├── Kexts
-    │   ├── AirportItlwm.kext
     │   ├── AppleALC.kext
     │   ├── CPUFriendDataProvider.kext
-    │   ├── IntelBluetoothFirmware.kext
-    │   ├── IntelBluetoothInjector.kext
     │   ├── IntelMausi.kext
     │   ├── Lilu.kext
     │   ├── SMCProcessor.kext
     │   ├── SMCSuperIO.kext
+    │   ├── USBInjectAll.kext
     │   ├── USBMap.kext
     │   ├── VirtualSMC.kext
     │   ├── WhateverGreen.kext
