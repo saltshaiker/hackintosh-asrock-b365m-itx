@@ -1,4 +1,4 @@
-# OpenCore 0.6.3 Hackintosh on Asrock B365M-ITX
+# OpenCore 0.6.4 Hackintosh on Asrock B365M-ITX
 
 Repo for my Hackintosh build using MacOS 11.0 (Big Sur). Will also attempt to make it a multi-boot build with Linux/Windows.
 
