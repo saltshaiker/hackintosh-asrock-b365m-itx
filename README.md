@@ -62,17 +62,17 @@ EFI
 ```
 
 ## What's Working
-* Intel WLAN support
+* Wi-Fi
 * Bluetooth
 * Audio
 * File sharing
 * USB Mapping
 * AirDrop
-* iMessage (in progress)
 * OpenCore UEFI GUI
-## What's Not Working
 * Sleep
-
+* dGPU
+## What's Not Working
+* iMessage (in progress)
 ## Potentially Useful Tools
 | Tool                                     | Use Case                                                                                                          |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
